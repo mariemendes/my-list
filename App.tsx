@@ -4,7 +4,7 @@ import Login from './src/pages/login';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View style={styles.containerMain}>
       <StatusBar style="auto" />
       <Login />
     </View>
@@ -12,10 +12,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  containerMain: {
+    flex: 1
   },
 });
